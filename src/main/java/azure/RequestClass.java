@@ -1,4 +1,4 @@
-package kafka;
+package azure;
 
 public class RequestClass {
     String deviceid;

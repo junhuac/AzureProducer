@@ -15,34 +15,26 @@
       <version>1.1.0</version>
     </dependency>
 
-<dependency>
-    <groupId>org.apache.kafka</groupId>
-    <artifactId>kafka-clients</artifactId>
-    <version>0.10.0.0</version>
-</dependency>
+	 	<dependency>
+	 	    <groupId>org.apache.qpid</groupId>
+	 	    <artifactId>proton-j</artifactId>
+	 	    <version>0.13.0</version>
+	 	</dependency>
+	 	<dependency>
+	 	    <groupId>org.bouncycastle</groupId> 
+	 	    <artifactId>bcpkix-jdk15on</artifactId> 
+	 	    <version>1.54</version> 
+	  	</dependency>   	
 
 <dependency>
-    <groupId>org.apache.kafka</groupId>
-    <artifactId>kafka-log4j-appender</artifactId>
-    <version>0.10.0.0</version>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>azure-eventhubs</artifactId>
+    <version>0.7.5</version>
 </dependency>
-
 <dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.21</version>
-</dependency>
-
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.7.21</version>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>azure-eventhubs-eph</artifactId>
+    <version>0.7.2</version>
 </dependency>
 
   </dependencies>
